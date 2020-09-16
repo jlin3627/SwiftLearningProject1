@@ -15,6 +15,10 @@
 		3F0A198F25128BC70062AB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A198D25128BC70062AB31 /* LaunchScreen.storyboard */; };
 		3F0A199A25128BC80062AB31 /* Test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A199925128BC80062AB31 /* Test1Tests.swift */; };
 		3F0A19A525128BC80062AB31 /* Test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A19A425128BC80062AB31 /* Test1UITests.swift */; };
+		3F0A19B32512944D0062AB31 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A19B22512944C0062AB31 /* Cat.wav */; };
+		3F0A19B42512944D0062AB31 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A19B22512944C0062AB31 /* Cat.wav */; };
+		3F0A19B52512944D0062AB31 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F0A19B22512944C0062AB31 /* Cat.wav */; };
+		3F0A19B825129E940062AB31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0A19B725129E940062AB31 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		3F0A19A025128BC80062AB31 /* Test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0A19A425128BC80062AB31 /* Test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1UITests.swift; sourceTree = "<group>"; };
 		3F0A19A625128BC80062AB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0A19B22512944C0062AB31 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		3F0A19B725129E940062AB31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A19B825129E940062AB31 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,7 @@
 				3F0A199825128BC80062AB31 /* Test1Tests */,
 				3F0A19A325128BC80062AB31 /* Test1UITests */,
 				3F0A198025128BC10062AB31 /* Products */,
+				3F0A19B625129E940062AB31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +112,7 @@
 				3F0A198625128BC10062AB31 /* ViewController.swift */,
 				3F0A198825128BC10062AB31 /* Main.storyboard */,
 				3F0A198B25128BC70062AB31 /* Assets.xcassets */,
+				3F0A19B22512944C0062AB31 /* Cat.wav */,
 				3F0A198D25128BC70062AB31 /* LaunchScreen.storyboard */,
 				3F0A199025128BC80062AB31 /* Info.plist */,
 			);
@@ -126,6 +135,14 @@
 				3F0A19A625128BC80062AB31 /* Info.plist */,
 			);
 			path = Test1UITests;
+			sourceTree = "<group>";
+		};
+		3F0A19B625129E940062AB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A19B725129E940062AB31 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +252,7 @@
 				3F0A198F25128BC70062AB31 /* LaunchScreen.storyboard in Resources */,
 				3F0A198C25128BC70062AB31 /* Assets.xcassets in Resources */,
 				3F0A198A25128BC10062AB31 /* Main.storyboard in Resources */,
+				3F0A19B32512944D0062AB31 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A19B42512944D0062AB31 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A19B52512944D0062AB31 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
